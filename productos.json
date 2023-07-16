@@ -1,0 +1,73 @@
+[{
+        "id": 1,
+        "foto": "https://desillas.com/img/productos/ZDHGWA_12.jpg",
+        "nombre": "Sillon Portofino un cuerpo",
+        "color": "beige",
+        "tela": "chenille",
+        "cuerpos": 1,
+        "precio": 90000
+    },
+    {
+        "id": 2,
+        "foto": "https://desillas.com/img/productos/ABENPU_2.jpg",
+        "nombre": "Sillon Milan un cuerpo",
+        "color": "gris",
+        "tela": "chenille",
+        "cuerpos": 1,
+        "precio": 90000             
+    },
+    {
+        "id": 3,
+        "foto": "https://desillas.com/img/productos/GLTRFK_11.jpg",
+        "nombre": "Sillon Bergamo dos cuerpos",
+        "color": "beige",
+        "tela": "pana",
+        "cuerpos": 2,
+        "precio": 120000
+    },
+    {
+        "id": 4,
+        "foto": "https://desillas.com/img/productos/CJFLRK_2.jpg",
+        "nombre": "Sillon Parma dos cuerpos",
+        "color": "rosa",
+        "tela": "pana",
+        "cuerpos": 2,
+        "precio": 150000
+    },
+    {
+        "id": 5,
+        "foto": "https://desillas.com/img/productos/CTZXXC_6.jpg",
+        "nombre": "Sillon Chesterfield tres cuerpos",
+        "color": "beige",
+        "tela": "pana",
+        "cuerpos": 3,
+        "precio": 320000
+    },
+    {
+        "id": 6,
+        "foto": "https://desillas.com/img/productos/FHFCIY_1.jpg",
+        "nombre": "Sillon Savona tres cuerpos",
+        "color": "beige",
+        "tela": "lino",
+        "cuerpos": 3,
+        "precio": 300000
+    },
+    {
+        "id": 7,
+        "foto": "https://desillas.com/img/productos/RPLJFO_1.jpg",
+        "nombre": "Silla Jeffrey",
+        "color": "negro",
+        "tela": "cuero",
+        "cuerpos": 1,
+        "precio": 50000
+    },
+    {
+        "id": 8,
+        "foto": "https://desillas.com/img/productos/PEYUWG_1.jpg",
+        "nombre": "Silla Charles",
+        "color": "blanco",
+        "tela": "lino",
+        "cuerpos": 1,
+        "precio": 40000
+    }
+]

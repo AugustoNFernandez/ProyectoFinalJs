@@ -1,0 +1,181 @@
+/* Color general del fondo de la pagina */
+body {
+    background-color: rgb(230, 230, 230) !important;
+}
+/* eleccion de familioa tipografica */    
+.gral{
+    font-family: 'Kanit', Helvetica, Arial, sans-serif ; 
+}
+
+/* Estilos del contenedor de titulo e imagen principal */
+.container-header{
+    background-color: #293241; 
+    text-align: center; 
+    color: #98C1D9;
+}
+.contenedorImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tapa{
+    width: 70%;
+    margin-right: 10%;
+
+}
+
+#eliminar{
+    color:red;
+}
+
+#formulario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+/* Disposicion de titulo principal y division de header en 2 principales*/
+#header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+    
+}
+.titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.textTit{
+    font-size: 55px;
+    text-align: left;
+}
+.textTit .titBold{
+    font-size: 70px;
+    font-style: italic;
+}
+
+/* estilo del boton carrito */ 
+#verCarrito{
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    background-color: #ee6c4d;
+    overflow: hidden;
+    position: relative;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 10;
+    border-radius: 9999px;
+        &:hover{
+        background-color: #e74118;
+    }
+}
+
+.form{
+    background-color: #4a5974;
+    color: #98C1D9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 10px;
+    gap: 50px;
+}
+
+/* formato footer */
+.redes{
+    height: 100px;
+    width: 100%;
+    background-color: #293241;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #98C1D9;
+    column-gap: 100px;
+}
+.redes .redesSociales td{
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+    color: #98C1D9;   
+    &:hover{
+        color:#4a5974
+    }     
+}
+
+ion-icon{
+    font-size: 40px;
+}
+
+
+/* Estilos para el modal */
+.modal {
+    display: none; /* Por defecto, ocultar el modal */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    left: 15%;
+    top: 20%;
+    overflow: auto;
+    background-color:rgb(41, 50, 65, 0.7);
+}    
+
+/* Estilos adicionales para el contenido del modal */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: auto;
+    top: 25%;
+    
+}
+
+
+/* Estilos para los botones del modal */
+#cerrarModalBtn{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    background-color: #f77c5e;
+    overflow: hidden;
+    position: relative;
+    align-content: center;
+    border-radius: 9px;
+        &:hover{
+        background-color: #e74118;
+    }
+}
+
+#botonFinalizar{
+    box-sizing: border-box;
+    background-color: #4a5974;
+    border-radius: 9px;
+        &:hover{
+        background-color: #293241;
+    }
+}
+        
+#botonVaciar{
+    box-sizing: border-box;
+    background-color: #abd8f3;
+    border-radius: 9px;
+        &:hover{
+        background-color: #a0b6e0;
+    }
+}
